@@ -1,6 +1,6 @@
 from resources.jw import *
 from flask import Flask,jsonify
-from flask.ext import restful
+import flask_restful as restful
 
 
 app = Flask(__name__)
@@ -14,9 +14,9 @@ class HelloWorld(restful.Resource):
 
 api.add_resource(HelloWorld, '/')
 
-api.add_resource(grade_all, '/grade/all')
-api.add_resource(grade_year, '/grade/year')
-api.add_resource(grade_term, '/grade/term')
+api.add_resource(grade_all, '/jw/grade/all')
+api.add_resource(grade_year, '/jw/grade/year')
+api.add_resource(grade_term, '/jw/grade/term')
 
 if __name__ == '__main__':
     app.run(debug=True)

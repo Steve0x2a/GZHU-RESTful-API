@@ -1,5 +1,5 @@
 from flask_restful import reqparse
-from flask.ext import restful
+import flask_restful as restful
 
 def post_data():
     parser = reqparse.RequestParser()
