@@ -1,6 +1,7 @@
 from flask_restful import reqparse
 import flask_restful as restful
-
+from common.jw import *
+from flask import jsonify
 def post_data():
     parser = reqparse.RequestParser()
     parser.add_argument('username' , required=True,type=str)
