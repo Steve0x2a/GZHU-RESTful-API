@@ -19,4 +19,4 @@ api.add_resource(grade_year, '/jw/grade/year')
 api.add_resource(grade_term, '/jw/grade/term')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)
