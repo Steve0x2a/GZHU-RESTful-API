@@ -18,11 +18,11 @@
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
- }```
-<br>
- - 请求结果示例<br> 
+ }``` 
+
+ - 请求结果示例
  
- ```json
+ ``` json
 {
     "data": {
         "birthsday": "生日",
@@ -42,7 +42,7 @@
     },
     "status": 200
 }
-```
+``` 
 
 ### 查询成绩
 接口可查询学期成绩、学年成绩、在校成绩。
@@ -58,11 +58,11 @@
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
- }```
+ }``` 
  
  - 请求结果示例
  
- ```json
+ ``` json
 {
     "data": 
         {
@@ -76,7 +76,7 @@
         },
     "status": 200
 },
-```
+``` 
 
 #### 按学年查询
 - 接口地址<br>[/jw/grade/year](http://api.0x2a.in/jw/grade/year)
@@ -90,7 +90,7 @@
  
  - 请求结果示例
  
- ```json
+ ``` json
 {
     "data": 
         {
@@ -104,13 +104,13 @@
         },
     "status": 200
 },
-```
+``` 
 
 #### 在校成绩查询
 - 接口地址<br>[/jw/grade/all](http://api.0x2a.in/jw/grade/all)
 - 请求方式<br>`POST`
  - POST请求示例 
-``` json
+``` json 
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
@@ -118,7 +118,7 @@
  
  - 请求结果示例
  
- ```json
+ ``` json
 {
     "data": 
         {
@@ -132,7 +132,7 @@
         },
     "status": 200
 },
-```
+``` 
 
 # 图书馆类
 ### 图书馆进馆人数
@@ -141,7 +141,7 @@
 - 接口地址：<br>[/lib/num/now/total](http://api.0x2a.in/lib/num/now/total)
 - 请求方式<br>`GET`
  - 请求结果示例： 
- ```json
+ ``` json
 {
 		"data": {
         	"TotalNum": "114"
@@ -154,7 +154,7 @@
 - 接口地址：<br>[/lib/num/now/all](http://api.0x2a.in/lib/num/now/all)
 - 请求方式<br>`GET`
  - 请求结果示例： 
- ```json
+ ``` json
 {
         "data": {
             "FacultyNum": {
@@ -182,7 +182,7 @@
         },
         "status": 200
 }
-```
+``` 
 
 #### 指定日期进馆总人数
 注意：只有2016.12后的数据
@@ -197,7 +197,7 @@
  
  - 请求结果示例： 
  
- ```json
+ ``` json
 {
         "data": {
             "TotalNum": "5492"
