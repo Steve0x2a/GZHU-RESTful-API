@@ -16,10 +16,9 @@
 - POST请求示例
 ``` json
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
+	"username" : "17xxxxxxx",
+	"password" : "123456"
  }
- 
  ``` 
 - 请求结果示例
  
@@ -57,13 +56,12 @@
 - POST请求示例 
 ``` json
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
+	"username" : "17xxxxxxx",
+	"password" : "123456"
  }
- 
  ``` 
  
-- 请求结果示例
+ - 请求结果示例
  
  ``` json
 {
@@ -78,7 +76,7 @@
             "year": "2017-2018"
         },
     "status": 200
-},
+}
 ``` 
 
 #### 按学年查询
@@ -87,11 +85,10 @@
  - POST请求示例 
 ``` json
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
- }
- 
- ```
+	"username" : "17xxxxxxx",
+	"password" : "123456"
+ } 
+```
  
 - 请求结果示例
  
@@ -108,7 +105,7 @@
             "year": "2017-2018"
         },
     "status": 200
-},
+}
 ``` 
 
 #### 在校成绩查询
@@ -117,10 +114,9 @@
  - POST请求示例 
 ``` json 
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
+	"username" : "17xxxxxxx",
+	"password" : "123456"
  }
- 
  ```
  
 - 请求结果示例
@@ -136,7 +132,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        },
+        }
     "status": 200
 },
 ``` 
@@ -150,7 +146,7 @@
 - 请求结果示例： 
  ``` json
 {
-		"data": {
+	"data": {
         	"TotalNum": "114"
     	},
     	"status": 200
@@ -198,12 +194,11 @@
 - POST请求实例 
 ``` json
 {
-		"begin" : "2018-1-3",
-		"password" : "2018-1-03",
+	"begin" : "2018-1-3",
+	"password" : "2018-1-03",
  }
- 
- ```
- 
+```
+
 - 请求结果示例： 
  
  ``` json
@@ -226,12 +221,10 @@
  - POST请求示例
  ``` json
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
- }
- 
- ```
- 
+	"username" : "17xxxxxxx",
+	"password" : "123456"
+ }```
+
 - 请求结果示例
  
   ``` json
@@ -257,13 +250,11 @@
 - POST请求示例
  ``` json
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
+	"username" : "17xxxxxxx",
+	"password" : "123456"
  }
- 
  ```
- 
-- 请求结果示例
+ - 请求结果示例
  
   ``` json
   {
@@ -289,8 +280,8 @@
 - POST请求示例
  ``` json
 {
-		"username" : "17xxxxxxx",
-		"password" : "123456"
+	"username" : "17xxxxxxx",
+	"password" : "123456"
  }
  
  ``` 
@@ -298,7 +289,7 @@
 
 - 请求结果示例
  
-  ``` json
+``` json
 {
     "data": {
         "数据科学入门": "This book can not be renewed!",
@@ -307,4 +298,5 @@
     "status": 200
 }
 ``` 
+
 例子中的书籍因都续借过所以无法续借。
