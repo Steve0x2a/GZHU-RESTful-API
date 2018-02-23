@@ -20,7 +20,7 @@
 		"password" : "123456"
  }``` 
 
- - 请求结果示例
+- 请求结果示例
  
  ``` json
 {
@@ -53,14 +53,14 @@
  
 - 接口地址<br>[/jw/grade/term](http://api.0x2a.in/jw/grade/term)
 - 请求方式<br>`POST`
- - POST请求示例 
+- POST请求示例 
 ``` json
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }``` 
  
- - 请求结果示例
+- 请求结果示例
  
  ``` json
 {
@@ -88,7 +88,7 @@
 		"password" : "123456"
  }```
  
- - 请求结果示例
+- 请求结果示例
  
  ``` json
 {
@@ -116,7 +116,7 @@
 		"password" : "123456"
  }```
  
- - 请求结果示例
+- 请求结果示例
  
  ``` json
 {
@@ -140,7 +140,7 @@
 #### 当日进馆总人数
 - 接口地址：<br>[/lib/num/now/total](http://api.0x2a.in/lib/num/now/total)
 - 请求方式<br>`GET`
- - 请求结果示例： 
+- 请求结果示例： 
  ``` json
 {
 		"data": {
@@ -153,7 +153,7 @@
 #### 当日进馆各学院人数
 - 接口地址：<br>[/lib/num/now/all](http://api.0x2a.in/lib/num/now/all)
 - 请求方式<br>`GET`
- - 请求结果示例： 
+- 请求结果示例： 
  ``` json
 {
         "data": {
@@ -188,14 +188,14 @@
 注意：只有2016.12后的数据
 - 接口地址：<br>[/lib/num/date/total](http://api.0x2a.in/lib/num/now/total)
 - 请求方式<br>`POST`
- - POST请求实例 
+- POST请求实例 
 ``` json
 {
 		"begin" : "2018-1-3",
 		"password" : "2018-1-03",
  }```
  
- - 请求结果示例： 
+- 请求结果示例： 
  
  ``` json
 {
@@ -221,7 +221,7 @@
 		"password" : "123456"
  }```
  
- - 请求结果示例
+- 请求结果示例
  
   ``` json
   {
@@ -243,14 +243,14 @@
  #### 获得当前所借书籍
 - 接口地址：<br>[/lib/books/borrowed](http://api.0x2a.in/lib/books/borrowed)
 - 请求方式：<br>`POST`
- - POST请求示例
+- POST请求示例
  ``` json
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
  
- - 请求结果示例
+- 请求结果示例
  
   ``` json
   {
@@ -273,14 +273,14 @@
 #### 续借当前所借书籍
 - 接口地址：<br>[/lib/books/renew](http://api.0x2a.in/lib/books/renew)
 - 请求方式：<br>`POST`
- - POST请求示例
+- POST请求示例
  ``` json
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
  
- - 请求结果示例
+- 请求结果示例
  
   ``` json
 {
