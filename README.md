@@ -16,8 +16,8 @@
  - POST请求示例
 ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
  - 请求结果示例
  ```json
@@ -37,9 +37,9 @@
         "politicsStatus": "政治面貌",
         "sex": "性别",
         "studentnumber": "学号",
-    },...
+    },
     "status": 200
-},
+}
 ```
 
 ### 查询成绩
@@ -54,8 +54,8 @@
  - POST请求示例 
 ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
  - 请求结果示例
  ```json
@@ -69,7 +69,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        }，...
+        }，
     "status": 200
 },...
 ```
@@ -80,8 +80,8 @@
  - POST请求示例 
 ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
  - 请求结果示例
  ```json
@@ -106,8 +106,8 @@
  - POST请求示例 
 ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
  - 请求结果示例
  ```json
@@ -208,7 +208,7 @@
  ``` json
 {
 		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"password" = "123456"
  }```
  - 请求结果示例
   ``` json
@@ -235,7 +235,7 @@
  ``` json
 {
 		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"password" = "123456"
  }```
  - 请求结果示例
   ``` json
@@ -263,7 +263,7 @@
  ``` json
 {
 		"username" = "17xxxxxxx",
-		"password" = "123456",
+		"password" = "123456"
  }```
  - 请求结果示例
   ``` json
