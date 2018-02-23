@@ -13,12 +13,15 @@
 - 功能<br>从正方系统查询个人信息
 - 接口地址<br>[/jw/info](http://api.0x2a.in/jw/info)
 - 请求方式<br>`POST`
- - POST请求示例
+- POST请求示例
 ``` json
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
- }``` 
+ }
+ 
+ ``` 
+
 
 - 请求结果示例
  
@@ -278,8 +281,9 @@
 {
 		"username" : "17xxxxxxx",
 		"password" : "123456"
- }```
- 
+ }``` 
+
+
 - 请求结果示例
  
   ``` json
