@@ -71,7 +71,7 @@
             "year": "2017-2018"
         }，
     "status": 200
-},...
+},
 ```
 
 #### 按学年查询
@@ -95,7 +95,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        }，...
+        }，
     "status": 200
 },
 ```
@@ -121,7 +121,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        }，...
+        }，
     "status": 200
 },
 ```
@@ -183,8 +183,8 @@
  - POST请求实例 
 ``` json
 {
-		"begin" = "2018-1-3",
-		"password" = "2018-1-03",
+		"begin" : "2018-1-3",
+		"password" : "2018-1-03",
  }```
  - 请求结果示例： 
  ```json
@@ -207,8 +207,8 @@
  - POST请求示例
  ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456"
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
  - 请求结果示例
   ``` json
@@ -234,8 +234,8 @@
  - POST请求示例
  ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456"
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
  - 请求结果示例
   ``` json
