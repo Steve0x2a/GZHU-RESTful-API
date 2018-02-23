@@ -19,7 +19,9 @@
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
  ```json
 {
     "data": {
@@ -37,7 +39,7 @@
         "politicsStatus": "政治面貌",
         "sex": "性别",
         "studentnumber": "学号",
-    },
+    }
     "status": 200
 }
 ```
@@ -57,7 +59,9 @@
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
  ```json
 {
     "data": 
@@ -69,7 +73,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        }，
+        }
     "status": 200
 },
 ```
@@ -83,7 +87,9 @@
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
  ```json
 {
     "data": 
@@ -95,7 +101,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        }，
+        }
     "status": 200
 },
 ```
@@ -109,7 +115,9 @@
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
  ```json
 {
     "data": 
@@ -121,7 +129,7 @@
             "term": "1",
             "type": "学科基础课程",
             "year": "2017-2018"
-        }，
+        }
     "status": 200
 },
 ```
@@ -171,7 +179,7 @@
                 "计算机科学与教育软件学院": "3"
             },
             "TotalNum": "114"
-        },
+        }
         "status": 200
 }
 ```
@@ -186,12 +194,14 @@
 		"begin" : "2018-1-3",
 		"password" : "2018-1-03",
  }```
+ 
  - 请求结果示例： 
+ 
  ```json
 {
         "data": {
             "TotalNum": "5492"
-        },
+        }
         "status": 200
 }
 ```
@@ -210,7 +220,9 @@
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
   ``` json
   {
         "data": {
@@ -224,7 +236,7 @@
                 "RenewTimes": "1",
                 "ReturnDate": "20180319"
             }
-        },
+        }
         "status": 200
 }
 ```
@@ -237,7 +249,9 @@
 		"username" : "17xxxxxxx",
 		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
   ``` json
   {
         "data": {
@@ -251,7 +265,7 @@
                 "RenewTimes": "1",
                 "ReturnDate": "20180319"
             }
-        },
+        }
         "status": 200
 }
 ```
@@ -262,16 +276,18 @@
  - POST请求示例
  ``` json
 {
-		"username" = "17xxxxxxx",
-		"password" = "123456"
+		"username" : "17xxxxxxx",
+		"password" : "123456"
  }```
+ 
  - 请求结果示例
+ 
   ``` json
 {
     "data": {
         "数据科学入门": "This book can not be renewed!",
         "集体智慧编程": "This book can not be renewed!"
-    },
+    }
     "status": 200
 }
 ``` 
