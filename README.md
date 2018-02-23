@@ -1,6 +1,6 @@
 # GZHU-RESTful-API接口文档
 用Requests + Flask + Flask-restful实现的广州大学部分网站第三方API
-- 更新时间: 2014.02.23
+- 更新时间: 2018.02.23
 - 返回数据格式: JSON
 - 练手项目 不保证效率
 - 此项目仅供学习 一切后果使用者负责
