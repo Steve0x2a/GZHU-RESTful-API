@@ -39,7 +39,7 @@
         "politicsStatus": "政治面貌",
         "sex": "性别",
         "studentnumber": "学号",
-    }
+    },
     "status": 200
 }
 ```
