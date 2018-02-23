@@ -8,11 +8,11 @@ class lib_num(object):
         data = {}
         data['begin'] = begin_time
         data['end'] = end_time
-        res = requests.post(self.lib_url,data = data)
+        res = requests.post(self.lib_url,data = data,timeout = 5)
         return  res
 
     def get(self):
-        res = requests.get(self.lib_url)
+        res = requests.get(self.lib_url,timeout = 5)
         return res
 
     def num_parse(self,response):
@@ -38,7 +38,7 @@ class DateTotal(lib_num):
         self.end_time = end_time
 
     def get_all(self):
-        res = self.post(self.begin_time,self.end_time)
+        res = self.post(self.begin_time,self.end_time,timeout = 5)
         total_num = self.num_parse(res)
         number_data = {}
         number_data['TotalNum'] = total_num
@@ -46,7 +46,7 @@ class DateTotal(lib_num):
         return number_data
     
     def get_total(self):
-        res = self.post(self.begin_time,self.end_time)
+        res = self.post(self.begin_time,self.end_time,timeout = 5)
         total_num = self.num_parse(res)
         number_data = {}
         number_data['TotalNum'] = total_num

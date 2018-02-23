@@ -3,10 +3,22 @@ from resources.lib import *
 from flask import Flask,jsonify
 import flask_restful as restful
 
+errors = {
+    'PasswordError': {
+        'message': "You give a wrong password",
+    },
+    'UnknownError': {
+        'message': "Unknown Erorr. Try again later",
+    },
+    'requests.exceptions.Timeout':{
+        'message': "TimeOut!"
+    }
+}
 
 app = Flask(__name__)
-api = restful.Api(app)
+api = restful.Api(app,errors = errors)
 app.config['JSON_AS_ASCII'] = False
+
 
 
 class HelloWorld(restful.Resource):
@@ -14,11 +26,11 @@ class HelloWorld(restful.Resource):
         return {'hello': 'world'}
 
 api.add_resource(HelloWorld, '/')
-'''Grade Route'''
+'''JW Route'''
 api.add_resource(grade_all, '/jw/grade/all')
 api.add_resource(grade_year, '/jw/grade/year')
 api.add_resource(grade_term, '/jw/grade/term')
-
+api.add_resource(stu_info,'/jw/info')
 '''Library Number Route'''
 api.add_resource(lib_date_num_all, '/lib/num/date/all')
 api.add_resource(lib_date_num_total, '/lib/num/date/total')
