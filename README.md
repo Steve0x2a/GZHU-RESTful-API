@@ -1,4 +1,8 @@
 # GZHU-RESTful-API接口文档
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)]()
+[![language](https://img.shields.io/badge/language-Python3-blue.svg)]()
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+
 用Requests + Flask + Flask-restful实现的广州大学部分网站第三方API
 - 更新时间: 2018.02.23
 - 返回数据格式: JSON
