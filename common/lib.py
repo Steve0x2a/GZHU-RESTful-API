@@ -38,7 +38,7 @@ class DateTotal(lib_num):
         self.end_time = end_time
 
     def get_all(self):
-        res = self.post(self.begin_time,self.end_time,timeout = 5)
+        res = self.post(self.begin_time,self.end_time)
         total_num = self.num_parse(res)
         number_data = {}
         number_data['TotalNum'] = total_num
@@ -46,7 +46,7 @@ class DateTotal(lib_num):
         return number_data
     
     def get_total(self):
-        res = self.post(self.begin_time,self.end_time,timeout = 5)
+        res = self.post(self.begin_time,self.end_time)
         total_num = self.num_parse(res)
         number_data = {}
         number_data['TotalNum'] = total_num

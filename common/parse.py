@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import urllib.parse
 
 def get_webflow(response):
     '''获得选课页面必须的lt 以及execution参数'''
@@ -28,7 +27,6 @@ def get_stuinfo(response):
     d["major"] = soup.find(id="lbl_zymc").string
     d["classname"] = soup.find(id="lbl_xzb").string
     d["gradeClass"] = soup.find(id="lbl_dqszj").string
-    d["urlName"] = urllib.parse.quote_plus(d["name"].encode('gb2312'))
     return d
 
 def get__VIEWSTATE(response):

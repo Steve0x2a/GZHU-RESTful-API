@@ -37,7 +37,7 @@ class jw(object):
         }
         #用requests post模拟登陆
 
-        response = self.session.post(url = self.loginurl, data = postdata, timeout = 7)
+        response = self.session.post(url = self.loginurl, data = postdata)
         #若返回response中有xs_main.aspx项则证明登录成功
         if "xs_main.aspx" in response.text:
             #获得登陆者信息
