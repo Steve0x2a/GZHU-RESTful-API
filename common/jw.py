@@ -48,6 +48,7 @@ class jw(object):
             raise UnknownError
 
     def get_info(self,username,password):
+        '''获得学生信息'''
         self.login(username,password)
         infourl = self.baseUrl+"/xsgrxx.aspx?xh="+self.username+"&"
         self.session.get(self.baseUrl)
@@ -86,6 +87,7 @@ class grades(jw):
         return grades
 
     def get_all(self):
+        '''根据method不同以确定Button1参数 以实现查询不同时期成绩'''
         self.post_data['Button1'] = urllib.parse.quote_plus("在校学习成绩查询".encode('gb2312'))
     def get_xn(self):
         self.post_data['Button1'] = urllib.parse.quote_plus("按学年查询".encode('gb2312'))

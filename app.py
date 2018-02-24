@@ -3,6 +3,8 @@ from resources.lib import *
 from flask import Flask,jsonify
 import flask_restful as restful
 
+
+#添加错误提醒
 errors = {
     'PasswordError': {
         'message': "You give a wrong password",
@@ -11,7 +13,7 @@ errors = {
         'message': "Unknown Erorr. Try again later",
     },
     'requests.exceptions.Timeout':{
-        'message': "TimeOut!"
+        'message': "Timeout!"
     }
 }
 
@@ -27,17 +29,17 @@ class HelloWorld(restful.Resource):
 
 api.add_resource(HelloWorld, '/')
 '''JW Route'''
-api.add_resource(grade_all, '/jw/grade/all')
-api.add_resource(grade_year, '/jw/grade/year')
-api.add_resource(grade_term, '/jw/grade/term')
-api.add_resource(stu_info,'/jw/info')
+api.add_resource(grade_all, '/jw/grade/all')#查询所有成绩路由
+api.add_resource(grade_year, '/jw/grade/year')#按学年查询成绩路由
+api.add_resource(grade_term, '/jw/grade/term')#按学期查询成绩路由
+api.add_resource(stu_info,'/jw/info')#查询个人信息路由
 '''Library Number Route'''
-api.add_resource(lib_date_num_all, '/lib/num/date/all')
-api.add_resource(lib_date_num_total, '/lib/num/date/total')
-api.add_resource(lib_now_num_all, '/lib/num/now/all')
-api.add_resource(lib_now_num_total, '/lib/num/now/total')
-api.add_resource(lib_borrowed_books, '/lib/books/borrowed')
-api.add_resource(lib_renew_books, '/lib/books/renew')
+api.add_resource(lib_date_num_all, '/lib/num/date/all')#按日期查询所有学院进馆人数路由
+api.add_resource(lib_date_num_total, '/lib/num/date/total')#按日期查询总进馆人数路由
+api.add_resource(lib_now_num_all, '/lib/num/now/all')#查询当前日期所有学院进馆人数路由
+api.add_resource(lib_now_num_total, '/lib/num/now/total')#查询当前日期总进馆人数路由
+api.add_resource(lib_borrowed_books, '/lib/books/borrowed')#获得当前所借书籍
+api.add_resource(lib_renew_books, '/lib/books/renew')#续借当前所借书籍
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
